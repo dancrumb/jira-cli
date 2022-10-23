@@ -1,13 +1,15 @@
 {
-  "name": "jira-cl",
-  "version": "1.2.2",
+  "name": "@dancrumb/jira-cli",
+  "version": "2.0.0",
   "description": "A Jira command line client",
-  "author": "Eduardo Henao & Miguel Henao",
+  "contributors": [
+    {
+      "name": "Eduardo Henao & Miguel Henao"
+    }
+  ],
+  "author": "Dan Rumney <dancrumb@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/foxythemes/jira-cli.git"
-  },
+  "repository": "https://github.com/dancrumb/jira-cli.git",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -49,5 +51,6 @@
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^5.6.1",
     "watch": "^1.0.2"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }

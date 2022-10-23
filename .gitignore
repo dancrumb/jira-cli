@@ -5,3 +5,5 @@ _gh_pages
 *.swp
 .idea
 *.iml
+
+yarn-error.log
